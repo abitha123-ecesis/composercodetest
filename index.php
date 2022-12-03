@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 use Intervention\Image\ImageManagerStatic as Image;
 
-$image = Image::make('img/homeimg.jpg')->resize(300, 200)->save('img/homeimg1.jpg',100); // blue line denotes render in an exsisting line
+$image=Image::make('img/homeimg.jpg')->resize(300, 200)->save('img/homeimg1.jpg',100); // blue line denotes render in an exsisting line
 
 echo '<img src="img/homeimg1.jpg" alt=""/>';
 
